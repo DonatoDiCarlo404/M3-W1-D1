@@ -1,0 +1,53 @@
+div > h1 {
+    color: orange;
+}
+
+.d-flex span {
+    background-color: rgb(72, 88, 102);
+    color: white;
+}
+
+.lead a {
+    color: red;
+}
+
+.pb-4 + .blog-post{
+    background-color: rgb(124, 241, 220);
+}
+
+.blog-post hr {
+    background-color: red;
+}
+
+/*.d-flex span:nth-child(2), .d-flex span:nth-child(4), .d-flex span:nth-child(6), .d-flex span:nth-child(8), .d-flex span:nth-child(10), .d-flex span:nth-child(12) {
+    background-color: black;
+}
+*/    
+
+.d-flex span:nth-child(even) {
+    background-color: black;
+}
+
+.blog-sidebar div:nth-of-type(2) ol li {
+    background-color: rgb(124, 241, 220);;
+}
+
+.blog-main div:nth-of-type(2) p:nth-of-type(1) a {
+    background-color: rgb(124, 241, 220)
+}
+
+.blog-main div:nth-of-type(3) ul li:nth-child(2) {
+    background-color: rgb(124, 241, 220)
+}
+
+.blog-footer + .float-right {
+    background-color: rgb(124, 241, 220)
+}
+
+.blog-pagination a:last-child {
+    background-color: rgb(124, 241, 220)
+}
+
+.blog-footer p a:nth-child(2) {
+    background-color: rgb(124, 241, 220)
+}
